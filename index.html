@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOOOM by Adil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div style="width: 45%;padding: 55px 0;margin: 55px 20px;background-color: red; margin-left: auto;margin-right: auto;text-align: center; border-radius: 15px;background-color: rgba(128, 128, 128, 0.459);">
+        <h1 >!!! BASIC TODO WEB APP !!!</h1>
+    </div>
+    <div class="task-input">
+        <h2 id="headingtitle">Enter Title</h2>
+        <input type="text" id="title-text">
+        <br>
+        <h2 id="headingtitle">Enter Task Details</h2>
+        <textarea name="" id="description-text" cols="120" rows="10"></textarea>
+        <br>
+        <button id="submit-button" onclick="submitTask()">Submit Task</button>
+        <button id="clear-button" onclick="clearTask()">Clear All Tasks</button>
+    </div>
+
+    <div id="TASKS"></div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
